@@ -38,8 +38,12 @@ trait LogsActivity
                     return;
                 }
 
-                $logger = app(ActivityLogger::class)
-                    ->useLog($logName)
+                $loggerInstance = app(ActivityLogger::class);
+                if (property_exists($model, 'logTable')) {
+                    $loggerInstance->setTable($model->logTable);
+                }
+
+                $logger = $loggerInstance->useLog($logName)
                     ->performedOn($model)
                     ->withProperties($attrs);
 

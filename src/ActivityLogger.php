@@ -211,4 +211,11 @@ class ActivityLogger
 
         return $this->activity;
     }
+
+    public function setTable($table)
+    {
+        $this->activity = $this->getActivity()->setTable($table);
+
+        return $this;
+    }
 }
