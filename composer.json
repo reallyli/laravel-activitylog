@@ -1,9 +1,7 @@
 {
-    "name": "spatie/laravel-activitylog",
+    "name": "reallyli/laravel-activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
-    "homepage": "https://github.com/spatie/activitylog",
     "keywords": [
-        "spatie",
         "log",
         "user",
         "activity",
@@ -11,21 +9,8 @@
     ],
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        },
-        {
-            "name": "Sebastian De Deyne",
-            "email": "sebastian@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        },
-        {
-            "name": "Tom Witkowski",
-            "email": "dev.gummibeer@gmail.com",
-            "homepage": "https://gummibeer.de",
+            "name": "reallyli",
+            "email": "zlisreallyli@outlook.com",
             "role": "Developer"
         }
     ],
